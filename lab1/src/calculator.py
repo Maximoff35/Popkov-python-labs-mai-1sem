@@ -1,10 +1,20 @@
+from src import tokenizer
+from src import parser
+from src import evaluator
 
-def calc(virashenie: str) -> float | int:
+
+def calc(virazhenie: str) -> float | int:
     """
     Вычисляет значение арифметического выражения.
 
-    :param virashenie: Строка, являющаяся арифместическим выражением
+    :param virazhenie: Строка, являющаяся арифместическим выражением
     :return: Целое или вещественное число - результат вычислений
     """
 
-    pass
+    tokens = tokenizer.tokenize(virazhenie)
+    tokens = parser.annotate_unary(tokens)
+    parser.correctness_check(tokens)
+    rpn = parser.to_rpn(tokens)
+    result = evaluator.eval_rpn(rpn)
+
+    return result

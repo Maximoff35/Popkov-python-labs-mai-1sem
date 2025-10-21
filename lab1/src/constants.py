@@ -4,18 +4,27 @@ TOKEN_RE = re.compile(r"(?P<NUM>\d+\.\d+|\d+)|(?P<OP>\*\*|//|[+\-*/%])|(?P<LP>\(
 
 # чем больше, тем сильнее
 PRIORITY = {
-    '**': 4,
-    'NEG': 3, # унарный минус
+    '**': 3,
+    'NEG': 4,  # унарный минус
     '*': 2, '//': 2, '%': 2, '/': 2,
     '+': 1, '-': 1
 }
 
+
 # левая или правая ассоциативность
+def left(a, b):
+    return a <= b
+
+
+def right(a, b):
+    return a < b
+
+
 ASSOCIATIVITY = {
-    '**': 'r',
-    'NEG': 'r',
-    '*': 'l', '//': 'l', '%': 'l', '/': 'l',
-    '+': 'l', '-': 'l'
+    '**': right,
+    'NEG': right,
+    '*': left, '//': left, '%': left, '/': left,
+    '+': left, '-': left
 }
 
 UNARY_LEFT = (None, 'OP', 'LP')
