@@ -134,3 +134,6 @@ untar test_cp.txt
 untar tar_folder_tar.gz
 untar tar_folder.tar.gz
 rm -r test_folder
+ls
+cd src
+ls
