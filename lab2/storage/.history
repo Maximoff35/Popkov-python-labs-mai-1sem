@@ -1,0 +1,64 @@
+ls
+lp
+ls
+ls -l src
+ls ..
+ls ...
+ls .gitignore
+ls /AMD
+ls /Movie
+ls /Курсы
+ls testiruem
+cd src
+cd main.py
+cd ..
+cd C:\AMD
+cd ~
+cd "D:\Программирование\ЛР Python МАИ 1 семестр\lab2"
+ls
+cd /
+cd Курсы
+cd storage
+cd
+cd
+cd "D:\Программирование\ЛР Python МАИ 1 семестр\lab2"
+cd /
+cd test_papka/test_papka_2
+rm ..
+rm /
+cd ..
+cd ..
+rm new_test.txt
+rm test.txt
+rm test_papka
+rm -r test_papka
+rm -r test_papka
+rm -r test_papka
+rm test_folder/test.txt
+rm test_folder/test_rm.txt
+rm test_folder/test_rm_folder.txt
+rm test_folder/test_rm_folder
+rm test_folder/test_rm_folder -r
+rm test_folder/test_rm_folder -r
+cp test.txt test
+cp test.txt test
+cp test_folder/test_cp.txt test
+cp test_folder/test_cp.txt test.txt
+cp test_folder/test_cp.txt test_folder/for_cp/test_cp_rename.txt
+rm test
+rm test.txt
+cp test_folder/test_cp_folder test_folder/for_cp/test_cp_folder_copied
+cp test_folder/test_cp_folder test_folder/for_cp/test_cp_folder_copied -r
+cp test_folder/test_cp_folder test_folder/for_cp -r
+rm test_folder/for_cp/test_cp_folder -r
+cp test_folder/test_cp_folder test_folder/for_cp -r
+mv test_folder/test_mv.txt test_folder/test/test_mv_rename.txt
+mv test_folder/test_mv.txt test_folder/test_mv_rename.txt
+mv test_folder/test_mv_rename.txt test_folder/test_mv_folder/test_mv.txt
+mv test_folder/test_mv_folder/test_mv.txt test_folder/for_mv/test_mv.txt
+mv test_folder/test_mv_folder test_folder
+test_folder/test_mv_folder test_folder/test_mv_folder_rename
+mv test_folder/test_mv_folder test_folder/test_mv_folder_rename
+mv test_folder/test_mv_folder_rename test_folder/test_mv_folder
+mv test_folder/test_mv_folder test_folder/for_mv
+mv test_folder/test_mv_folder test_folder/for_mv/test_mv_folder

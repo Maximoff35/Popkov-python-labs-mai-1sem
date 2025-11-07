@@ -1,0 +1,135 @@
+[
+  {
+    "op": "rm",
+    "cur_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test.txt",
+    "trash_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_2025-11-07_05-49-45.txt",
+    "is_dir": false,
+    "time": "2025-11-07 05:49:45"
+  },
+  {
+    "op": "rm",
+    "cur_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_papka",
+    "trash_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_papka_2025-11-07_05-50-23",
+    "is_dir": true,
+    "time": "2025-11-07 05:50:23"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_rm.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_rm_2025-11-07_06-42-43.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:42:43"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_rm_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_rm_folder_2025-11-07_06-43-29",
+    "is_dir": true,
+    "time": "2025-11-07 06:43:29"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test",
+    "is_dir": false,
+    "time": "2025-11-07 06:45:09"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:45:30"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_cp\\test_cp_rename.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:46:22"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_2025-11-07_06-46-36",
+    "is_dir": false,
+    "time": "2025-11-07 06:46:36"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_2025-11-07_06-46-47.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:46:47"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_cp\\test_cp_folder_copied",
+    "is_dir": true,
+    "time": "2025-11-07 06:48:03"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_cp\\test_cp_folder",
+    "is_dir": true,
+    "time": "2025-11-07 06:48:36"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_cp\\test_cp_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_cp_folder_2025-11-07_06-49-20",
+    "is_dir": true,
+    "time": "2025-11-07 06:49:20"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_cp_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_cp\\test_cp_folder",
+    "is_dir": true,
+    "time": "2025-11-07 06:49:31"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_rename.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:50:51"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_rename.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder\\test_mv.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:51:23"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder\\test_mv.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_mv\\test_mv.txt",
+    "is_dir": false,
+    "time": "2025-11-07 06:52:08"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder_rename",
+    "is_dir": true,
+    "time": "2025-11-07 06:53:41"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder_rename",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder",
+    "is_dir": true,
+    "time": "2025-11-07 06:53:56"
+  },
+  {
+    "op": "mv",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\test_mv_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\for_mv\\test_mv_folder",
+    "is_dir": true,
+    "time": "2025-11-07 06:56:12"
+  }
+]

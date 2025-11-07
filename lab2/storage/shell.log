@@ -1,0 +1,64 @@
+[2025-11-05 18:36:28] ls
+[2025-11-05 18:36:31] Неизвестная команда: lp.
+[2025-11-05 18:37:38] ls
+[2025-11-05 18:37:47] ls -l src
+[2025-11-05 18:37:55] ls ..
+[2025-11-05 18:37:59] ls ...
+[2025-11-05 18:38:33] ls .gitignore | Это не каталог.
+[2025-11-05 18:40:02] ls /AMD | Нет такого пути.
+[2025-11-05 18:40:22] ls /Movie
+[2025-11-05 18:41:10] ls /Курсы
+[2025-11-05 18:44:21] ls testiruem | Нет такого пути.
+[2025-11-05 18:57:19] cd src
+[2025-11-05 18:57:25] ERROR: cd main.py | Это не каталог.
+[2025-11-05 18:57:31] cd ..
+[2025-11-05 18:57:45] cd C:\AMD
+[2025-11-05 18:57:51] cd ~
+[2025-11-05 18:58:07] cd "D:\Программирование\ЛР Python МАИ 1 семестр\lab2"
+[2025-11-05 18:58:12] ls
+[2025-11-05 18:58:32] cd /
+[2025-11-05 18:58:40] cd Курсы
+[2025-11-05 18:58:49] ERROR: cd storage | Нет такого пути.
+[2025-11-05 18:58:54] cd
+[2025-11-05 19:16:48] cd
+[2025-11-05 19:17:03] cd "D:\Программирование\ЛР Python МАИ 1 семестр\lab2"
+[2025-11-05 19:50:18] cd /
+[2025-11-07 05:48:55] cd test_papka/test_papka_2
+[2025-11-07 05:49:00] ERROR: rm .. | Нельзя удалить корневой или родительский каталог.
+[2025-11-07 05:49:05] ERROR: rm / | Нельзя удалить корневой или родительский каталог.
+[2025-11-07 05:49:15] cd ..
+[2025-11-07 05:49:17] cd ..
+[2025-11-07 05:49:31] ERROR: rm new_test.txt | Неподдерживаемый тип объекта.
+[2025-11-07 05:49:45] rm test.txt
+[2025-11-07 05:49:59] ERROR: rm test_papka | Это каталог. Добавь -r для рекурсивного удаления.
+[2025-11-07 05:50:15] rm -r test_papka
+[2025-11-07 05:50:23] rm -r test_papka
+[2025-11-07 05:54:11] ERROR: rm -r test_papka | Нет такого файла/каталога.
+[2025-11-07 06:42:33] ERROR: rm test_folder/test.txt | Нет такого файла/каталога.
+[2025-11-07 06:42:43] rm test_folder/test_rm.txt
+[2025-11-07 06:42:52] ERROR: rm test_folder/test_rm_folder.txt | Нет такого файла/каталога.
+[2025-11-07 06:43:15] ERROR: rm test_folder/test_rm_folder | Это каталог. Добавь -r для рекурсивного удаления.
+[2025-11-07 06:43:24] rm test_folder/test_rm_folder -r
+[2025-11-07 06:43:29] rm test_folder/test_rm_folder -r
+[2025-11-07 06:43:55] ERROR: cp test.txt test | Неизвестная команда: cp.
+[2025-11-07 06:44:45] ERROR: cp test.txt test | Файл или каталог не существует.
+[2025-11-07 06:45:09] cp test_folder/test_cp.txt test
+[2025-11-07 06:45:30] cp test_folder/test_cp.txt test.txt
+[2025-11-07 06:46:22] cp test_folder/test_cp.txt test_folder/for_cp/test_cp_rename.txt
+[2025-11-07 06:46:36] rm test
+[2025-11-07 06:46:47] rm test.txt
+[2025-11-07 06:47:55] ERROR: cp test_folder/test_cp_folder test_folder/for_cp/test_cp_folder_copied | Это каталог. Добавь -r для рекурсивного копирование.
+[2025-11-07 06:48:03] cp test_folder/test_cp_folder test_folder/for_cp/test_cp_folder_copied -r
+[2025-11-07 06:48:36] cp test_folder/test_cp_folder test_folder/for_cp -r
+[2025-11-07 06:49:20] rm test_folder/for_cp/test_cp_folder -r
+[2025-11-07 06:49:31] cp test_folder/test_cp_folder test_folder/for_cp -r
+[2025-11-07 06:50:38] ERROR: mv test_folder/test_mv.txt test_folder/test/test_mv_rename.txt | Каталог, в который перемещаем, не найден.
+[2025-11-07 06:50:51] mv test_folder/test_mv.txt test_folder/test_mv_rename.txt
+[2025-11-07 06:51:23] mv test_folder/test_mv_rename.txt test_folder/test_mv_folder/test_mv.txt
+[2025-11-07 06:52:08] mv test_folder/test_mv_folder/test_mv.txt test_folder/for_mv/test_mv.txt
+[2025-11-07 06:53:06] ERROR: mv test_folder/test_mv_folder test_folder | Объект с таким именем уже существует в месте, куда перемещаем.
+[2025-11-07 06:53:28] ERROR: test_folder/test_mv_folder test_folder/test_mv_folder_rename | Неизвестная команда: test_folder/test_mv_folder.
+[2025-11-07 06:53:41] mv test_folder/test_mv_folder test_folder/test_mv_folder_rename
+[2025-11-07 06:53:56] mv test_folder/test_mv_folder_rename test_folder/test_mv_folder
+[2025-11-07 06:54:46] ERROR: mv test_folder/test_mv_folder test_folder/for_mv | Объект с таким именем уже существует в месте, куда перемещаем.
+[2025-11-07 06:56:12] mv test_folder/test_mv_folder test_folder/for_mv/test_mv_folder
