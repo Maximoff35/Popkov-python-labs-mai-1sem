@@ -1,0 +1,23 @@
+[
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\folder_2025-11-07_11-59-20",
+    "is_dir": true,
+    "time": "2025-11-07 11:59:20"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder\\folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\folder_2025-11-07_12-03-36",
+    "is_dir": true,
+    "time": "2025-11-07 12:03:36"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test_folder",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\storage\\.trash\\test_folder_2025-11-07_12-08-36",
+    "is_dir": true,
+    "time": "2025-11-07 12:08:36"
+  }
+]
