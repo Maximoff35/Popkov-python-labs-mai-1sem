@@ -4,7 +4,7 @@ from src.factorial_and_fibo import _check_n, factorial, factorial_recursive, fib
 
 
 @pytest.mark.parametrize(
-    'n, should_raise',
+    'n, oshibka',
     [
         (0, False),
         (1, False),
@@ -18,8 +18,8 @@ from src.factorial_and_fibo import _check_n, factorial, factorial_recursive, fib
         (False, True),
     ],
 )
-def test_check_n(n, should_raise):
-    if should_raise:
+def test_check_n(n, oshibka):
+    if oshibka:
         with pytest.raises(ValueError):
             _check_n(n)
     else:
