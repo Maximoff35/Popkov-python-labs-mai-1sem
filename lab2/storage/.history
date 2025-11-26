@@ -137,3 +137,13 @@ rm -r test_folder
 ls
 cd src
 ls
+ls -l
+cd ..
+ls -l -l -cfnjk
+cat .gitignore
+ls -l
+cd lab2
+cd test
+rm -r test_dir
+undo
+ls -l

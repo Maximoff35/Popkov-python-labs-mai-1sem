@@ -71,7 +71,7 @@ def test_command_cd():
     f = d / 'f.txt'
     f.write_text('x', encoding='utf-8')
     with pytest.raises(CdError):
-        fs.command_cd(s, ['cdik/f.txt'], set())
+        fs.command_cd(s, ['f.txt'], set())
     with pytest.raises(CdError):
         fs.command_cd(s, ['dich'], set())
 
@@ -121,12 +121,12 @@ def test_command_cp():
     s = change_constants()
     f = s.cwd / 'cp_old.txt'
     f.write_text('data', encoding='utf-8')
-    out1 = fs.command_cp(s, ['cp_old.txt', 'cp_new.txt'], set())
+    fs.command_cp(s, ['cp_old.txt', 'cp_new.txt'], set())
     assert (s.cwd / 'cp_new.txt').exists()
     d = s.cwd / 'cp_dir'
     (d / 'papka').mkdir(parents=True, exist_ok=True)
     (d / 'papka' / 'a.txt').write_text('1', encoding='utf-8')
-    out2 = fs.command_cp(s, ['cp_dir', 'cp_dir_copy'], {'-r'})
+    fs.command_cp(s, ['cp_dir', 'cp_dir_copy'], {'-r'})
     assert (s.cwd / 'cp_dir_copy' / 'papka' / 'a.txt').exists()
     with pytest.raises(CpError):
         fs.command_cp(s, ['ahahahah', 'x'], set())

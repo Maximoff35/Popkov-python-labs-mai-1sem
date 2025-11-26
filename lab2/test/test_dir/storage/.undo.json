@@ -348,5 +348,180 @@
     "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-07_20-35-27.gz",
     "is_dir": false,
     "time": "2025-11-07 20:35:27"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\rmrik",
+    "new_path": "test_dir\\storage\\.trash\\rmrik_2025-11-08_12-47-10",
+    "is_dir": true,
+    "time": "2025-11-08 12:47:10"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_old.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_new.txt",
+    "is_dir": false,
+    "time": "2025-11-08 12:47:10"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir_copy\\cp_dir",
+    "is_dir": true,
+    "time": "2025-11-08 12:47:10"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\zipka.zip",
+    "new_path": "test_dir\\storage\\.trash\\zipka_2025-11-08_12-47-10.zip",
+    "is_dir": false,
+    "time": "2025-11-08 12:47:10"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\tarik.tar.gz",
+    "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-08_12-47-10.gz",
+    "is_dir": false,
+    "time": "2025-11-08 12:47:10"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\rmrik",
+    "new_path": "test_dir\\storage\\.trash\\rmrik_2025-11-08_12-49-03",
+    "is_dir": true,
+    "time": "2025-11-08 12:49:03"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_old.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_new.txt",
+    "is_dir": false,
+    "time": "2025-11-08 12:49:03"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir_copy\\cp_dir",
+    "is_dir": true,
+    "time": "2025-11-08 12:49:03"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\zipka.zip",
+    "new_path": "test_dir\\storage\\.trash\\zipka_2025-11-08_12-49-03.zip",
+    "is_dir": false,
+    "time": "2025-11-08 12:49:03"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\tarik.tar.gz",
+    "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-08_12-49-03.gz",
+    "is_dir": false,
+    "time": "2025-11-08 12:49:03"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\rmrik",
+    "new_path": "test_dir\\storage\\.trash\\rmrik_2025-11-09_16-15-01",
+    "is_dir": true,
+    "time": "2025-11-09 16:15:01"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_old.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_new.txt",
+    "is_dir": false,
+    "time": "2025-11-09 16:15:01"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir_copy\\cp_dir",
+    "is_dir": true,
+    "time": "2025-11-09 16:15:01"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\zipka.zip",
+    "new_path": "test_dir\\storage\\.trash\\zipka_2025-11-09_16-15-02.zip",
+    "is_dir": false,
+    "time": "2025-11-09 16:15:02"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\tarik.tar.gz",
+    "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-09_16-15-02.gz",
+    "is_dir": false,
+    "time": "2025-11-09 16:15:02"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\rmrik",
+    "new_path": "test_dir\\storage\\.trash\\rmrik_2025-11-11_12-05-52",
+    "is_dir": true,
+    "time": "2025-11-11 12:05:52"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_old.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_new.txt",
+    "is_dir": false,
+    "time": "2025-11-11 12:05:52"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir_copy\\cp_dir",
+    "is_dir": true,
+    "time": "2025-11-11 12:05:52"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\zipka.zip",
+    "new_path": "test_dir\\storage\\.trash\\zipka_2025-11-11_12-05-52.zip",
+    "is_dir": false,
+    "time": "2025-11-11 12:05:52"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\tarik.tar.gz",
+    "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-11_12-05-52.gz",
+    "is_dir": false,
+    "time": "2025-11-11 12:05:52"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\rmrik",
+    "new_path": "test_dir\\storage\\.trash\\rmrik_2025-11-11_19-47-42",
+    "is_dir": true,
+    "time": "2025-11-11 19:47:42"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_old.txt",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_new.txt",
+    "is_dir": false,
+    "time": "2025-11-11 19:47:42"
+  },
+  {
+    "op": "cp",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir",
+    "new_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\cp_dir_copy\\cp_dir",
+    "is_dir": true,
+    "time": "2025-11-11 19:47:42"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\zipka.zip",
+    "new_path": "test_dir\\storage\\.trash\\zipka_2025-11-11_19-47-42.zip",
+    "is_dir": false,
+    "time": "2025-11-11 19:47:42"
+  },
+  {
+    "op": "rm",
+    "old_path": "D:\\Программирование\\ЛР Python МАИ 1 семестр\\lab2\\test\\test_dir\\tarik.tar.gz",
+    "new_path": "test_dir\\storage\\.trash\\tarik.tar_2025-11-11_19-47-43.gz",
+    "is_dir": false,
+    "time": "2025-11-11 19:47:43"
   }
 ]
