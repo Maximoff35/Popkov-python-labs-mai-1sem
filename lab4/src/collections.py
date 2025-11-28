@@ -1,3 +1,4 @@
+from __future__ import annotations
 from src.models import Book
 
 
@@ -31,7 +32,7 @@ class BookCollection:
         if not isinstance(book, Book):
             raise ValueError('Коллекция может состоять только из объектов типа Book.')
         isbn = book.isbn
-        if isbn in self:
+        if self.contain_isbn(isbn):
             self.remove_book_by_isbn(isbn)
         self._books.append(book)
 
@@ -49,6 +50,17 @@ class BookCollection:
                 self._books = self._books[:i] + self._books[i + 1:]
                 return
         raise KeyError('ISBN не найден в коллекции.')
+
+    def contain_isbn(self, isbn: str) -> bool:
+        """
+        Проверяет, содержится ли в коллекции книга с указанным ISBN
+        :param isbn: Строка с ISBN книги
+        :return: True, если книга с указанным ISBN есть в коллекции, иначе, False
+        """
+        if type(isbn) is not str or isbn.strip() == '':
+            raise ValueError('В поле "isbn" ожидается непустая строка.')
+        isbn = isbn.strip()
+        return any(book.isbn == isbn for book in self)
 
     def __len__(self) -> int:
         """
@@ -76,16 +88,15 @@ class BookCollection:
             return BookCollection(self._books[item])
         raise ValueError('В поле "item" ожидается целое число или срез.')
 
-    def __contains__(self, isbn) -> bool:
+    def __contains__(self, other: Book) -> bool:  # ПОДУМАТЬ
         """
-        Проверяет наличие книги с указанным ISBN в коллекции.
-        :param isbn: Строка с ISBN искомой книги
+        Проверяет наличие книги в коллекции.
+        :param other: Объект класса Book или его подклассов
         :return: True, если книга найдена, иначе False
         """
-        if type(isbn) is not str or isbn.strip() == '':
-            raise ValueError('В поле "isbn" ожидается непустая строка.')
-        isbn = isbn.strip()
-        return any(book.isbn == isbn for book in self._books)
+        if not isinstance(other, Book):
+            raise ValueError('В коллекции можно искать только книги класса Book или его подклассов.')
+        return other in self._books
 
 
 class IndexDict:
@@ -123,7 +134,7 @@ class IndexDict:
         author = book.author
         year = book.year
         if isbn in self._by_isbn:
-            self.remove_isbn(isbn)
+            self.remove_book_by_isbn(isbn)
         self._by_isbn[isbn] = book
         if author not in self._by_author:
             self._by_author[author] = [book]
@@ -145,9 +156,9 @@ class IndexDict:
             raise ValueError('Индекс состоит только из объектов типа Book.')
         if book.isbn not in self._by_isbn or self._by_isbn[book.isbn] != book:
             raise KeyError('Неизвестная книга.')
-        self.remove_isbn(book.isbn)
+        self.remove_book_by_isbn(book.isbn)
 
-    def remove_isbn(self, isbn: str) -> None:
+    def remove_book_by_isbn(self, isbn: str) -> None:
         """
         Удаляет книгу из всех индексов по её ISBN.
         :param isbn: Строка с ISBN удаляемой книги
@@ -256,3 +267,14 @@ class IndexDict:
         if book.isbn != isbn:
             raise ValueError('ISBN не соответствует этой книге.')
         self.add_book(book)
+
+    def __contains__(self, isbn: str) -> bool:
+        """
+        Проверяет наличие книги в индексе.
+        :param isbn: Строка с ISBN
+        :return: True, если книга найдена, иначе False
+        """
+        if type(isbn) is not str or isbn.strip() == '':
+            raise ValueError('В поле "isbn" ожидается непустая строка.')
+        isbn = isbn.strip()
+        return isbn in self._by_isbn
